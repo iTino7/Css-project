@@ -1,0 +1,40 @@
+.imageContainer img {
+  width: 700px;
+  height: 500px;
+  background-size: contain;
+}
+
+.imageContainer h1 {
+  font-family: "Prata", serif;
+  margin-bottom: 0;
+}
+
+.imageContainer h3 {
+  font-family: "Prata", serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0 0;
+}
+
+.imageContainer a {
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.imageContainer a:visited {
+  color: black;
+}
+
+.imageContainer h6 {
+  padding: 22px;
+  margin: 56px 0 0 0;
+  color: white;
+  border-radius: 6px;
+  background: linear-gradient(
+    100deg,
+    rgba(116, 132, 157, 1) 0%,
+    rgba(22, 39, 59, 1) 50%,
+    rgba(9, 22, 41, 1) 100%
+  );
+}
